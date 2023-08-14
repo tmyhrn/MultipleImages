@@ -7,6 +7,7 @@ const keyframes = {
 };
 const options = {
   duration: 600,
+  delay: i * 300,
   fill: 'forwards',
 };
 items[i].animate(keyframes, options);

@@ -3,9 +3,7 @@ const items = document.querySelectorAll('.img-item');
 
 for (let i = 0; i < items.length; i++) {
 const keyframes = {
-  opacity: [0, 1],
-  rotate: ['5deg', 0],
-  scale: [5, 1],
+  filter: ['blur(20px)', 'blur(0)'],
 };
 const options = {
   duration: 600,
